@@ -1,0 +1,10 @@
+Berkas,Jenis Data,Cara Membaca,Storage yang Sesuai
+destinasi.csv,Structured,pd.read_csv(),Basis data relasional
+destinasi.xlsx,Structured,pd.read_excel(),Basis data relasional
+ulasan.json,Semi-structured,pd.read_json(),Database dokumen / NoSQL
+katalog.xml,Semi-structured,pd.read_xml(),Database dokumen / NoSQL
+contoh.png,Unstructured,PIL.Image.open(),File storage
+Teks bebas,Unstructured,open().read(),File storage
+anggota_sanggar.csv,Structured,pd.read_csv(),Basis data relasional
+jadwal_latihan.json,Semi-structured,pd.read_json(),Database dokumen / NoSQL
+foto_tarian.jpg,Unstructured,PIL.Image.open(),Object storage
